@@ -83,30 +83,32 @@ export const CONFIG: EventConfig = {
   countdownTimezone: "America/Sao_Paulo",
   
   // Premium Nightclub visual references
-  logoUrl: "", // Paste your real logo image URL here (PNG/JPG) to replace the default SVG logo
-  heroBgUrl: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=1200&auto=format&fit=crop",
-  djPhotoUrl: "https://images.unsplash.com/photo-1571266028243-e4bb333c5c14?q=80&w=800&auto=format&fit=crop",
-  videoPlaceholderUrl: "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?q=80&w=800&auto=format&fit=crop",
-  
-  // If a real vertical video is hosted, replace this URL.
-  // We provide a premium interactive player with custom thumbnail and mock loading for perfect realism.
-  videoUrl: "https://drive.google.com/uc?export=download&id=1Z69Wk6myDri1i3loTR3iphlLPOQdFasy",
-  
+  // Todas as imagens e o vídeo abaixo são carregados de arquivos locais em /public/media.
+  // Basta subir o arquivo com o MESMO NOME no repositório (pasta public/media/images ou public/media/videos)
+  // que ele aparece automaticamente no site publicado. Veja public/media/README.md para instruções detalhadas.
+  logoUrl: "", // Opcional: suba public/media/images/logo.png e troque para "/media/images/logo.png"
+  heroBgUrl: "/media/images/hero-bg.jpg",
+  djPhotoUrl: "/media/images/dj-photo.jpg",
+  videoPlaceholderUrl: "/media/images/video-placeholder.jpg",
+
+  // Vídeo vertical do artista. Suba o arquivo .mp4 em public/media/videos/artist-video.mp4
+  videoUrl: "/media/videos/artist-video.mp4",
+
   venuePhotos: [
     {
-      url: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800&auto=format&fit=crop",
+      url: "/media/images/venue-1.jpg",
       caption: "Nosso Bar Premium"
     },
     {
-      url: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=800&auto=format&fit=crop",
+      url: "/media/images/venue-2.jpg",
       caption: "Ambiente Confortável no Batel"
     },
     {
-      url: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=800&auto=format&fit=crop",
+      url: "/media/images/venue-3.jpg",
       caption: "Coquetelaria e Bebidas Selecionadas"
     },
     {
-      url: "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=800&auto=format&fit=crop",
+      url: "/media/images/venue-4.jpg",
       caption: "Pista de Dança com Sistema de Som de Alta Fidelidade"
     }
   ],
