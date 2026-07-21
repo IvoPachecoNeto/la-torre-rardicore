@@ -1,0 +1,6 @@
+{
+  "name": "La Torre Rardicori",
+  "description": "Landing page de alta conversão para o evento La Torre Rardicóri com DJ Zóio no La Torre Sport Bar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
