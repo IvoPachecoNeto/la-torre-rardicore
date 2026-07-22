@@ -96,19 +96,19 @@ export const CONFIG: EventConfig = {
 
   venuePhotos: [
     {
-      url: "/media/images/venue-1.jpg",
+      url: "/media/images/fachada.png",
       caption: "Nosso Bar Premium"
     },
     {
-      url: "/media/images/venue-2.jpg",
+      url: "/media/images/fora.png",
       caption: "Ambiente Confortável no Batel"
     },
     {
-      url: "/media/images/venue-3.jpg",
+      url: "/media/images/drink.png",
       caption: "Coquetelaria e Bebidas Selecionadas"
     },
     {
-      url: "/media/images/venue-4.jpg",
+      url: "/media/images/salao.png",
       caption: "Pista de Dança com Sistema de Som de Alta Fidelidade"
     }
   ],
